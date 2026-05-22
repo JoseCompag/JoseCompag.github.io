@@ -1,0 +1,40 @@
+export interface Skill {
+  name: string
+  category: "languages" | "frontend" | "backend" | "databases" | "testing" | "tools" | "cs"
+}
+
+export const skills: Skill[] = [
+  { name: "Java", category: "languages" },
+  { name: "Python", category: "languages" },
+  { name: "C", category: "languages" },
+  { name: "SQL", category: "languages" },
+  { name: "PLpgSQL", category: "languages" },
+  { name: "Ruby", category: "languages" },
+  { name: "React", category: "frontend" },
+  { name: "HTML/CSS", category: "frontend" },
+  { name: "REST APIs", category: "backend" },
+  { name: "gRPC", category: "backend" },
+  { name: "Protocol Buffers", category: "backend" },
+  { name: "API Design", category: "backend" },
+  { name: "MySQL", category: "databases" },
+  { name: "PostgreSQL", category: "databases" },
+  { name: "MongoDB", category: "databases" },
+  { name: "JUnit", category: "testing" },
+  { name: "Mockito", category: "testing" },
+  { name: "Pitest", category: "testing" },
+  { name: "jqwik", category: "testing" },
+  { name: "JaCoCo", category: "testing" },
+  { name: "Docker", category: "tools" },
+  { name: "Git", category: "tools" },
+  { name: "Maven", category: "tools" },
+  { name: "Make", category: "tools" },
+  { name: "CMake", category: "tools" },
+  { name: "Linux", category: "tools" },
+  { name: "Data Structures", category: "cs" },
+  { name: "Design Patterns", category: "cs" },
+  { name: "Distributed Systems", category: "cs" },
+  { name: "Compilers", category: "cs" },
+  { name: "MiniMax / Alpha-Beta", category: "cs" },
+  { name: "DEVS Simulation", category: "cs" },
+  { name: "Agile / Scrum", category: "cs" },
+]
